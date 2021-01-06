@@ -27,6 +27,15 @@
     text-align: center;
 }
 
-#custSignUp {
+.custButtons {
     margin-top: 7%;
+}
+
+.modalFooter{
+    text-align: center;
+    font-weight: bold;
+}
+
+.modalFooter a{
+    cursor: pointer;
 }
