@@ -13,8 +13,9 @@
 }
 
 .subHeading {
-    font-family: '"Ubuntu Mono', monospace;
+    font-family: 'Ubuntu Mono', monospace;
     margin: 0;
+    font-size: 1rem;
 }
 
 .btnHolder button{

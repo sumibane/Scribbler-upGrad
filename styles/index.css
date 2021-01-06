@@ -7,3 +7,36 @@ body {
     background: url('../images/background.jpg') no-repeat center fixed;
     background-size: cover;
 }
+
+.btngroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btngroup button{
+    background-color: #cfb53b;
+    padding: 0.2rem 0.3rem;
+    margin: 0.2rem;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: -1px -1px white, 1px 1px 1px #777;
+}
+
+.modal-xl {
+    max-width: 85%;
+}
+
+.createBtn {
+    text-align: center;
+    justify-content: center;
+}
+
+.createBtn button{
+    width: 15%;
+}
