@@ -24,4 +24,9 @@
     padding: 0.5rem;
     margin: 0.4rem;
     cursor: pointer;
+    text-align: center;
+}
+
+#custSignUp {
+    margin-top: 7%;
 }
