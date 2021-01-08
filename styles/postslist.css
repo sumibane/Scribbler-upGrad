@@ -7,7 +7,7 @@ body{
     background: #ffeedd;  
  }
 
- .postContainer{
+ #postContainer{
    display: flex;
    flex-wrap: wrap;
    align-items: center;
@@ -65,4 +65,19 @@ body{
    float: right;
    cursor: pointer;
    color: #818181;
+ }
+
+ .modalContainer .modal{
+  width: 22%;
+  margin: 10% auto;
+}
+
+ .btnGroup{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .btnGroup button{
+   border-radius: 0;
+   padding: 1% 7%;
  }
