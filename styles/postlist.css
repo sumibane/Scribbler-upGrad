@@ -4,5 +4,30 @@
 }
 
 body{
-    background-color: #ffeedd;
-}
+    background: #ffeedd;   
+ }
+
+ .postContainer{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 2% 4%;
+ }
+
+ .post{
+   width: 46%;
+   display: flex;
+   margin: 1% auto;
+   border-radius: 0.2rem;
+   box-shadow: 0 0 1.5rem 0.3rem #cfbbbd;
+   padding-top: 2%;
+ }
+
+ .post:hover{
+  box-shadow: 0 0 2rem 0.5rem #cfbbbd;
+ }
+
+ .fas {
+   float: right;
+   cursor: pointer;
+ }
