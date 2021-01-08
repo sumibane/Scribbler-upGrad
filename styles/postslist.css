@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #ffeedd;  
+ }
+
+ #postContainer{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 2% ;
+ }
+
+ .post{
+   width: 40%;
+   display: flex;
+   border-radius: 0.9rem;
+   box-shadow: 0 0 1.5rem 0.3rem #cfbbbd;
+   margin: 1% auto;
+   margin-top: 3%;
+ }
+
+ .post:hover{
+  box-shadow: 0 0 2rem 0.5rem #cfbbbd;
+ }
+
+ .post p{
+  margin-bottom: 0;
+}
+
+ .author{
+   background: white;
+   display: flex;
+   align-items: center;
+   border-top-left-radius: 0.9rem;
+   border-bottom-left-radius: 0.9rem;
+   padding: 1.5%;
+   font-weight: bold;
+   color: #757575;
+ }
+
+ .information{
+   background: #e8e8e8;
+   padding: 2%;
+   border-top-right-radius: 0.9rem;
+   border-bottom-right-radius: 0.9rem;
+ }
+
+ .title{
+   display: flex;
+   justify-content: space-between;
+   color: #84868c;
+ }
+
+ .content{
+   line-height: 1.2rem;
+   height: 3.8rem;
+   overflow: hidden;
+ }
+ .fas {
+   display: flex;
+   float: right;
+   cursor: pointer;
+   color: #818181;
+ }
+
+ .modalContainer .modal{
+  width: 22%;
+  margin: 10% auto;
+}
+
+ .btnGroup{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .btnGroup button{
+   border-radius: 0;
+   padding: 1% 7%;
+ }
