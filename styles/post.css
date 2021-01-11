@@ -11,7 +11,7 @@
     margin: 1% 4%;
     width: 92%;
 }
-.title{
+#title{
     text-align: center;
     font-weight: bold;
     font-size: 1.5rem;
@@ -30,12 +30,12 @@
     width: 120%;
 }
 
-.author p{
+#author p{
     font-family:'Ubuntu Mono', monospace;
     font-size: 1.2rem;
 }
 
-.contents{
+#contents{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1rem;
     line-height: 1.2rem;
@@ -87,4 +87,8 @@
     padding: 0.5rem;
     margin-top: 0.7rem;
     margin-bottom: 0.7rem;
+}
+
+.editEnabled{
+    border: 1px solid #f79db2;
 }
