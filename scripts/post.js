@@ -32,3 +32,16 @@ document.addEventListener('click', (e) => {
         }
     }    
 })
+
+//Like Functionality Handler
+var likeCount = 0;
+document.getElementById('btn-like').addEventListener('click', (e) =>{
+    e.target.innerHTML = '<i class="fas fa-thumbs-up"></i> Liked';
+    likeCount++;
+    if(likeCount == 1){
+        document.querySelector('.likeSec .likeCount').innerHTML = '1 person likes this!';
+    }
+    else{
+        document.querySelector('.likeSec .likeCount').innerHTML = likeCount+' people like this!';
+    }
+})
