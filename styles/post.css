@@ -1,94 +1,95 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.btn{
-    font-size: 0.8rem;
+.btn {
+  font-size: 0.8rem;
 }
 
-.pageBody{
-    margin: 1% 4%;
-    width: 92%;
+.pageBody {
+  margin: 1% 4%;
+  width: 92%;
 }
-#title{
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-.separator{
-    display: flex;
-    justify-content: space-between;
+#title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
-.separator .editBtn{
-    padding-right: 1%;
+.separator {
+  display: flex;
+  justify-content: space-between;
 }
 
-.separator .editBtn button{
-    width: 120%;
+.separator .editBtn {
+  padding-right: 1%;
 }
 
-#author p{
-    font-family:'Ubuntu Mono', monospace;
-    font-size: 1.2rem;
+.separator .editBtn button {
+  width: 120%;
 }
 
-#contents{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1rem;
-    line-height: 1.2rem;
-    text-align: justify;
-}
-.btn-danger{
-    border-radius: 0;
-    background-color: #ed2553;
-    box-shadow: 0px 0.4rem 0.6rem -0.2rem #f79db2;
+#author p {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 1.2rem;
 }
 
-.likeSec button{
-    width: 5%;
+#contents {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-align: justify;
+}
+.btn-danger {
+  border-radius: 0;
+  background-color: #ed2553;
+  box-shadow: 0px 0.4rem 0.6rem -0.2rem #f79db2;
 }
 
-.likeSec .likeCount{
-    margin-top: 0.5%;
-    font-family: 'Source Serif Pro', serif;
-    font-weight: bold;
-    font-size: 0.8rem;
+.likeSec button {
+  width: 5%;
 }
 
-#txt-comment{
-    width: 70%;
-    min-height: 10%;
+.likeSec .likeCount {
+  margin-top: 0.5%;
+  font-family: "Source Serif Pro", serif;
+  font-weight: bold;
+  font-size: 0.8rem;
 }
 
-.postComment button{
-    margin-top: 1%;
-    width: 8%;
+#txt-comment {
+  width: 70%;
+  min-height: 10%;
 }
 
-.viewComment{
-    width: 70%;
-    margin-top: 1%;
-    font-weight: bold;
+#postComment button {
+  margin-top: 1%;
+  width: 8%;
 }
 
-.viewComment .comments{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
-    font-weight: 0.8rem;
-    background-color: lightgrey;
-    padding: 1rem 0.7rem;
+.viewComment {
+  width: 70%;
+  margin-top: 1%;
+  font-weight: bold;
 }
 
-.viewComment .comments div{
-    background-color: white;
-    padding: 0.5rem;
-    margin-top: 0.7rem;
-    margin-bottom: 0.7rem;
+.viewComment .comments {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-weight: 0.8rem;
+  background-color: lightgrey;
+  padding: 1rem 0.7rem;
+  display: none;
 }
 
-.editEnabled{
-    border: 1px solid #f79db2;
+.viewComment .comments div {
+  background-color: white;
+  padding: 0.5rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.editEnabled {
+  border: 1px solid #f79db2;
 }
